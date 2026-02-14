@@ -2,8 +2,7 @@
 import os
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from gestores.gestor_json import cargar_json 
-
+from gestores.puente_json import datos_pokemones
 
 
 
@@ -11,8 +10,7 @@ from gestores.gestor_json import cargar_json
 class Pokemon:
     #ATRIBUTOS
     def __init__(self,id_especie,nivel):
-        #EXTRAER DATOS DEL JSON Y GUARDARLOS EN VARIABLES
-        datos_pokemones = cargar_json("pokemon.json")
+        #EXTRAER DATOS DE PUENTE_JSON
         datos_especie = datos_pokemones[id_especie]
         datos_especie_base = datos_especie["base"]
 
