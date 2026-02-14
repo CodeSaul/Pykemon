@@ -1,0 +1,7 @@
+{
+    "HL001":{
+        "nombre": "espesura",
+        "descripcion": "Potencia los movimientos de tipo planta cuando le quedan pocos PS",
+        "efecto": "multiplica_ataque_planta_por_1.5_si_ps_menos_33"
+    }
+}

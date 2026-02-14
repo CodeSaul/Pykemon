@@ -1,0 +1,23 @@
+{
+    "001":{
+        "nombre": "Bulbasur",
+        "tipos": ["planta","veneno"],
+        "base":{
+            "ps": 45,
+            "ataque": 49,
+            "defensa": 49,
+            "velocidad": 45,
+            "ataque_especial":65,
+            "defensa_especial": 65
+        },
+        "habilidades_posibles": ["HL001"],
+        "movimientos_por_nivel":{
+            "1":["MV001","MV002"],
+            "3":["MV003"],
+            "6":["MV004"],
+            "9":["MV005"],
+            "12":["MV006"],
+            "15":["MV007,MV008"]
+        }
+    }
+}

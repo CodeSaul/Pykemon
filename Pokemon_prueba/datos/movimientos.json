@@ -1,0 +1,11 @@
+{
+    "MV001":{
+        "nombre":"placaje",
+        "tipo":"normal",
+        "categoria":"fisico",
+        "potencia": 40,
+        "precision":100,
+        "pp": 35,
+        "descripcion": "ataque físico en el que el usuario carga y embiste al enemigo con todo su cuerpo"
+    }
+}
